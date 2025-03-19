@@ -1,0 +1,246 @@
+body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #f4f4f4;
+     }
+     
+     header {
+         background: #002244;
+         color: white;
+         padding: 20px;
+         text-align: center;
+     
+     }
+     .head{
+         background:#050044;
+         color: white;
+         padding: 20px;
+         text-align: center;
+     }
+     
+     nav ul {
+         list-style: none;
+         padding: 0;
+     }
+     
+     nav ul li {
+         display: inline;
+         margin: 0 15px;
+     }
+     
+     nav ul li a {
+         color: white;
+         text-decoration: none;
+     }
+     
+     .hero {
+         text-align: center;
+         padding: 50px;
+         background: #004488;
+         color: white;
+     }
+     
+     .hero .btn {
+         display: inline-block;
+         padding: 10px 20px;
+         background: #ffcc00;
+         color: #002244;
+         text-decoration: none;
+         border-radius: 5px;
+     }
+     
+     .about, .services, #contact {
+         text-align: center;
+         padding: 30px;
+     }
+     
+     footer {
+         text-align: center;
+         background: #002244;
+         color: white;
+         padding: 10px;
+         margin-top: 20px;
+     }
+     .meet{
+         text-align: center;
+         background-color: grey;
+         border-radius: 5px;
+     }
+     .lawyer-photo{
+        width: 200px;
+        border-radius: 50px;
+        display: block;
+        margin: 20px auto;
+     }
+     blockquote {
+        font-style: italic;
+        background: #f8f8f8;
+        padding: 10px;
+        border-left: 5px solid #004488;
+        margin: 10px 0;
+    }
+    .btn {
+        display: inline-block;
+        background: #ffcc00;
+        color: #002244;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    .leg{
+        text-align: center;
+        font-family:Bernard MT Condensed, Geneva, Tahoma, sans-serif;
+        font-size: x-large;
+    }
+    .services {
+        text-align: center;
+        padding: 50px;
+        background: #f8f8f8;
+    }
+    
+    .services h2 {
+        color: #002244;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .services p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 30px;
+    }
+    
+    .service-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .service {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+    }
+    
+    .service:hover {
+        transform: translateY(-5px);
+    }
+    
+    .service h3 {
+        color: #004488;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .service p {
+        color: #666;
+        font-size: 1rem;
+    }
+    
+    .btn {
+        display: inline-block;
+        background: #ffcc00;
+        color: #002244;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 20px;
+        transition: 0.3s;
+    }
+    
+    .btn:hover {
+        background: #e6b800;
+    }
+    .contact {
+        text-align: center;
+        padding: 50px;
+        background: #f8f8f8;
+    }
+    
+    .contact h2 {
+        color: #002244;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .contact p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 30px;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .contact-item {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        width: 250px;
+    }
+    
+    .contact-item h3 {
+        color: #004488;
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+    }
+    
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .contact-form textarea {
+        resize: none;
+    }
+    
+    .btn {
+        display: inline-block;
+        background: #ffcc00;
+        color: #002244;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .btn:hover {
+        background: #e6b800;
+    }
+    
+    .map {
+        margin-top: 20px;
+    }
+    
+    
+    
+    
